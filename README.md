@@ -10,7 +10,7 @@ Removed Foreman Razelcraz questline, not worth the hassle of stepping into horde
 Removed Withered Basidium, to much grind.
 
 ## Progress
-Dun Morogh 1-12 done  
+Dun Morogh 1-12 done
 Alliance 13-68 done  
 
 ## Guide todo
@@ -24,7 +24,7 @@ Add Bartolo's Yeti fur cloak
 Adding "Kill 'Em With Sleep Deprivation" and "Look at the Size of It!" when they are fixed in trinity and/or azeroth core
 Add druid water form questline, it fits into late westfall questing and it's written into Zygor's.
 
-## TBCduo
+## Duo
 This is a version of the guide tuned for 2 people leveling together doing more quest and some dungeons
 
 ## Fixing step comments.
