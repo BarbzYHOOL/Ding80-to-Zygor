@@ -9,11 +9,6 @@ Desolace has been replaced by Arathi Highlands.
 Removed Foreman Razelcraz questline, not worth the hassle of stepping into horde territory, hellfire slightly reorganized because of this.
 Removed Withered Basidium, to much grind.
 
-## Tips
-Warlocks learn voidwalker at lvl 15  
-Warlocks learn succubus at lvl 33  
-Warlocks learn felhunter at lvl 38  
-
 ## Progress
 Dun Morogh 1-12 done  
 Alliance 13-68 done  
