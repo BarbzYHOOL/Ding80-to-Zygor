@@ -18,22 +18,6 @@ Warlocks learn felhunter at lvl 38
 Dun Morogh 1-12 done  
 Alliance 13-68 done  
 
-## Ding steps
-Ding steps are written from a Warlock speed run on an Azeroth Core server, attempting to kill the minimal amounts of enemies.
-Reached lvl 58 with 12655xp (7%), Skipped a lot of hard to do quests along the way.  
-**Skipped quests for that run:**
-- WANTED: Chok'sul.
-- Howling in the Hills.
-- Wanted: Gath'Ilzogg.
-- Theocritus' Retrieval.
-- Diabolical Plans.
-- Coolant Heads Prevail and the following chain.
-- Green Hills of Stranglethorn
-- Message in a Bottle and the following chain
-- Chasing A-Me 01 (part 2).
-- Ursius of the Shardtooth.
-- Deadwood and Winterfall Ritual Totem.
-
 ## Guide todo
 **Vanilla**  
 Do a timed run compare of grinding lvl 19 in westfall or heading to auberdine as is written.  
@@ -42,9 +26,11 @@ Make some waypoints inside Deadmines for Collecting memories and Oh brother...
 Tempted to add The Absent Minded Professor questline, hooks into wetlands and all that.  
 Clean up Forest Song quest start and end route.  
 Add Bartolo's Yeti fur cloak  
-End badlands quest by going to searing gorge to get the flightpath?  
-Adding "Kill 'Em With Sleep Deprivation" and "Look at the Size of It!" when they are fixed in trinity and/or azeroth core  
+Adding "Kill 'Em With Sleep Deprivation" and "Look at the Size of It!" when they are fixed in trinity and/or azeroth core
 Add druid water form questline, it fits into late westfall questing and it's written into Zygor's.
+
+## TBCduo
+This is a version of the guide tuned for 2 people leveling together doing more quest and some dungeons
 
 ## Fixing step comments.
 Don't worry about the step comments, just run `python step_fix.py <guide>` and it'll fix it for you.
