@@ -9,11 +9,6 @@ Desolace has been replaced by Arathi Highlands.
 Removed Foreman Razelcraz questline, not worth the hassle of stepping into horde territory, hellfire slightly reorganized because of this.
 Removed Withered Basidium, to much grind.
 
-## Tips
-Warlocks learn voidwalker at lvl 15  
-Warlocks learn succubus at lvl 33  
-Warlocks learn felhunter at lvl 38  
-
 ## Progress
 Dun Morogh 1-12 done
 Alliance 13-68 done  
@@ -29,8 +24,9 @@ Add Bartolo's Yeti fur cloak
 Adding "Kill 'Em With Sleep Deprivation" and "Look at the Size of It!" when they are fixed in trinity and/or azeroth core
 Add druid water form questline, it fits into late westfall questing and it's written into Zygor's.
 
-## Duo
-This is a version of the guide tuned for 2 people leveling together doing more quest and some dungeons
+## TBCduo
+This is a version of the guide tuned for 2 people leveling together doing more quest and some dungeons.
+It stays as long as possible in Azeroth to reach 70 early and get more money from questing in Netherstorm/Shadowmoon Valley
 
 ## Fixing step comments.
 Don't worry about the step comments, just run `python step_fix.py <guide>` and it'll fix it for you.
