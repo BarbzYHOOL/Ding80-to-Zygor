@@ -7083,7 +7083,6 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Leve
 		goto 84.6,68.7
 		.talk Oralius##9177
 		..turnin Ogre Head On A Stick = Party##3825
-
 	step //191
 		'Fly to Ironforge|goto Ironforge|noway|c
 	step //192
@@ -7356,7 +7355,6 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Leve
 		goto 9.8,44.5
 		.talk Gryphon Master Talonaxe##5636
 		..turnin Saving Sharpbeak##2994
-	
 	step //257
 		'Fly to Ironforge|goto Ironforge|use Hearthstone##6948|noway|c
 ]])
@@ -8087,7 +8085,6 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Leve
 		.' Click the Conspicuous Gravestone|tip It's the only grave that looks like a stone tombstone.
 		..turnin A Grave Situation##3913
 		..accept Linken's Sword##3914
-	
 	step //167
 		'Fly to Marshal's Refuge|goto Un'Goro Crater,44.9,8.2,3|noway|c
 	step //168
