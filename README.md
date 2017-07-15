@@ -10,7 +10,7 @@ Removed Foreman Razelcraz questline, not worth the hassle of stepping into horde
 Removed Withered Basidium, to much grind.
 
 ## Progress
-Dun Morogh 1-12 done
+Dun Morogh 1-12 done  
 Alliance 13-68 done  
 
 ## Guide todo
@@ -21,11 +21,11 @@ Make some waypoints inside Deadmines for Collecting memories and Oh brother...
 Tempted to add The Absent Minded Professor questline, hooks into wetlands and all that.  
 Clean up Forest Song quest start and end route.  
 Add Bartolo's Yeti fur cloak  
-Adding "Kill 'Em With Sleep Deprivation" and "Look at the Size of It!" when they are fixed in trinity and/or azeroth core
+Adding "Kill 'Em With Sleep Deprivation" and "Look at the Size of It!" when they are fixed in trinity and/or azeroth core.  
 Add druid water form questline, it fits into late westfall questing and it's written into Zygor's.
 
 ## TBCduo
-This is a version of the guide tuned for 2 people leveling together doing more quest and some dungeons.
+This is a version of the guide tuned for 2 people leveling together doing more quest and some dungeons.  
 It stays as long as possible in Azeroth to reach 70 early and get more money from questing in Netherstorm/Shadowmoon Valley
 
 ## Fixing step comments.
