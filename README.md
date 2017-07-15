@@ -6,7 +6,7 @@ Discord: https://discord.gg/SjXbNRX
 Auberdine added for lvl 19-20  
 Cracking Maury's Foot and Mai'Zoth added.  
 Desolace has been replaced by Arathi Highlands.  
-Removed Foreman Razelcraz questline, not worth the hassle of stepping into horde territory, hellfire slightly reorganized because of this.
+Removed Foreman Razelcraz questline, not worth the hassle of stepping into horde territory, hellfire slightly reorganized because of this.  
 Removed Withered Basidium, to much grind.
 
 ## Progress
