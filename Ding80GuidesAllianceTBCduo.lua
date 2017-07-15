@@ -220,6 +220,12 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Dun 
 		goto 46,51.7
 		.talk Tharek Blackstone##1872
 		..accept Tools for Steelgrill##400
+	step //54
+		goto 49.6,48.5
+		.talk Pilot Bellowfiz##1378
+		..accept Stocking Jetsteam##317
+		.talk Pilot Stonegear##1377
+		..accept The Grizzled Den##313
 	step //52
 		goto 50.4,49.1
 		.talk Beldin Steelgrill##1376
@@ -228,12 +234,6 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Dun 
 		goto 50.1,49.4
 		.talk Loslor Rudge##1694
 		..accept Ammo for Rumbleshot##5541
-	step //54
-		goto 49.6,48.5
-		.talk Pilot Bellowfiz##1378
-		..accept Stocking Jetsteam##317
-		.talk Pilot Stonegear##1377
-		..accept The Grizzled Den##313
 	step //55
 		goto 49.7,50.8
 		.from Large Crag Boar##1126+, Crag Boar##1125+, Young Black Bear##1128+, Ice Claw Bear##1196+
@@ -309,10 +309,9 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Dun 
 		.talk Razzle Sprysprocket##1269
 		..accept Operation Recombobulation##412
 	step //71
-		goto 37.9,42.1|n
-		.' The path up to Shimmerweed starts here|goto Dun Morogh,37.9,42.1,0.3|noway|c
+		.' The path up to Shimmerweed starts here|goto 42.7,45,0.3|c
 	step //72
-		goto 41.2,36.4
+		goto 41.2,43
 		.from Frostmane Seer##1397+
 		.' Click the Shimmerweed Baskets|tip The Shimmerweed Baskets look like woven wooden baskets on the ground around this area.
 		.get 6 Shimmerweed|q 315/1
@@ -456,7 +455,6 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Dun 
 		..accept Me Brother, Nipsy##6662
 	step //109
 		'Ride the train to Stormwind|n
-	step //110
 		.talk Nipsy##13018
 		..turnin Me Brother, Nipsy##6662
 	step //111
@@ -465,8 +463,40 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Dun 
 		goto Stormwind City,57.7,47.9
 		.talk Baros Alexston##1646
 		..accept Humble Beginnings##399
+	step
+		goto 80.4,59.8
+		.talk Ilsa Corbin##5480
+		..accept A Warrior's Training##1638
+		only Warrior
+	step
+		goto 77.1,53.3
+		.talk Harry Burlguard##6089
+		..turnin A Warrior's Training##1638
+		..accept Bartleby the Drunk##1639
+		only Warrior
+	step
+		goto 76.8,52.5
+		.talk Bartleby##6090
+		..turnin Bartleby the Drunk##1639
+		..accept Beat Bartleby##1640
+		only Warrior
+	step
+		goal Beat Bartleby|q 1640/1
+		only Warrior
+	step
+		goto 76.8,52.5
+		.talk Bartleby##6090
+		..turnin Beat Bartleby##1640
+		..accept Bartleby's Mug##1665
+		only Warrior
+	step
+		goto 77.1,53.3
+		.talk Harry Burlguard##6089
+		..turnin Bartleby's Mug##1665
+		..accept Marshall Haggard##1666
+		only Warrior
 	step //113
-		goto Stormwind City,39.2,85.3
+		goto 39.2,85.3
 		.talk Gakin the Darkbinder##6122
 		..turnin The Slaughtered Lamb##1715
 		..accept Surena Caledon##1688
@@ -550,14 +580,6 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Dun 
 		'Follow the path inside the cave to 41.7,78.3|goto 41.7,78.3
 		.from Goldtooth##327
 		.get Bernice's Necklace|q 87/1
-	step //132
-		.from Kobold Tunneler##475+, Kobold Miner##40+
-		.get 10 Gold Dust|q 47/1
-		.get 8 Large Candle|q 60/1
-	step //133
-		goto 42.1,67.3
-		.talk Remy "Two Times"##241
-		..turnin Gold Dust Exchange##47
 	step //134
 		goto 42.1,65.9
 		.talk Marshal Dughan##240
@@ -566,8 +588,6 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Dun 
 	step //135
 		goto 43.3,65.7
 		.talk William Pestle##253
-		..turnin Kobold Candles##60
-		..accept Shipment to Stormwind##61
 		..turnin Note to William##107
 		..accept Collecting Kelp##112
 	step //136
@@ -577,12 +597,17 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Dun 
 	step //137
 		'Go inside the mine to 60.4,49.7|goto 60.4,49.7
 		.' Explore the Jasperlode Mine|goal Scout through the Jasperlode Mine|q 76/1
+	step //132
+		.from Kobold Tunneler##475+, Kobold Miner##40+
+		.get 10 Gold Dust|q 47/1
+		.get 8 Large Candle|q 60/1
 	step //138
 		goto 74,72.2
 		.talk Guard Thomas##261
 		..turnin Further Concerns##35
 		..accept Find the Lost Guards##37
 		..accept Protect the Frontier##52
+		..accept Bounty on Murlocs##46
 	step //139
 		goto 72.7,60.3
 		.' Click the Half-Eaten body|tip On the ground next to some big rocks by the river and a tree.
@@ -593,6 +618,10 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Dun 
 		.' Click Rolf's Corpse|tip On the ground next to a murloc hut.
 		..turnin Discover Rolf's Fate##45
 		..accept Report to Thomas##71
+	step //140
+		goto 79.8,55.5
+		.from Murloc Forager##46+, Murloc Lurker##732+
+		..get 8 Torn Murloc Fin|q 46/1
 	step //141
 		ding 11
 	step //142
@@ -607,6 +636,16 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Dun 
 		goto 81.3,60.6
 		.' Click the small stacks of wood at the base of trees|tip They look like little stacks of 3 firewood at the base of trees in this area.
 		.get 8 Bundle of Wood|q 5545/1
+	step
+		goto 84.6,69.4
+		.talk Marshal Haggard##294
+		..turnin Marshal Haggard##1666
+		..accept Dead-tooth Jack##1667
+		only Warrior
+	step
+		goto 89.3,78.9
+		.get Marshal Haggard's Badge|q 1667/1
+		only Warrior
 	step //145
 		goto 80,77.8
 		.kill 8 Prowler|q 52/1
@@ -620,13 +659,14 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Dun 
 		'Kill Princess
 		.get Brass Collar##1006|q 88/1
 	step //148
-		goto Elwynn Forest,71,80.8
+		goto 71,80.8
 		.from Surena Caledon##881
 		.get Surena's Choker|q 1688/1
 		only Gnome Warlock
 	step //149
 		goto 74,72.2
 		.talk Guard Thomas##261
+		..turnin Bounty on Murlocs##46
 		..turnin Protect the Frontier##52
 		..turnin Report to Thomas##71
 		..accept Deliver Thomas' Report##39
@@ -638,11 +678,18 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Dun 
 		goto 81.4,66.1
 		.talk Supervisor Raelen##10616
 		..turnin A Bundle of Trouble##5545
+	step
+		goto 84.6,69.4
+		.talk Marshal Haggard##294
+		..turnin Dead-tooth Jack##1667
+		only Warrior
 	step //152
 		'Hearth to Goldshire|goto Elwynn Forest,42.4,65.8,2|use Hearthstone##6948|noway|c
-	step //153
+	step //135
 		goto 43.3,65.7
 		.talk William Pestle##253
+		..turnin Kobold Candles##60
+		..accept Shipment to Stormwind##61
 		..turnin Collecting Kelp##112
 		..accept The Escape##114
 	step //154
@@ -651,6 +698,10 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Dun 
 		..turnin Deliver Thomas' Report##39
 		..turnin The Jasperlode Mine##76
 		..accept Westbrook Garrison Needs Help!##239
+	step //133
+		goto 42.1,67.3
+		.talk Remy "Two Times"##241
+		..turnin Gold Dust Exchange##47
 	step //155
 		goto 43.2,89.6
 		.talk Maybell Maclure##251
