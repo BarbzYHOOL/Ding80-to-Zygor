@@ -198,7 +198,6 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Dun 
 		..accept Supplies to Tannok##2160
 	step //46
 		'Go through the tunnel to the other side|goto Dun Morogh,35.6,65.8,0.3|noway|c
-
 	step //47
 		goto 46.7,53.8
 		.talk Senir Whitebeard##1252
@@ -806,7 +805,6 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Main
 		.from Harvest Watcher##114+
 		.collect 5 Flask of Oil##814|q 103 |future
 		.collect 5 Hops##1274|q 116 |future
-		
 		.' You can find more Harvest Watchers at 53.5,29.4|n
 	step //13
 		goto 49.4,19.2
@@ -1438,9 +1436,10 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Main
 		..turnin The People's Militia (3)##14
 		..turnin The Defias Brotherhood (5)##142
 	step //167
+		'WARNING: ESCORT!
 		goto 55.7,47.5
 		.talk The Defias Traitor##467
-		..accept The Defias Brotherhood (6)##155	
+		..accept The Defias Brotherhood (6)##155|noauto
 	step //168
 		goal Escort The Defias Traitor to discover where VanCleef is hiding|q 155/1
 	step //169
@@ -2008,9 +2007,10 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Leve
 		home Lakeshire
 	step //122
 		'Head left when you enter the cave
-		goto Redridge Mountains,28.4,12.6
+		'WARNING: ESCORT!
+		goto 28.4,12.6
 		.talk Corporal Keeshan##349
-		..accept Missing In Action##219
+		..accept Missing In Action##219|noauto
 	step //123
 		' IMPORTANT NOTE: Pull the mobs AHEAD of him before he reaches them! Even though he's tough, he charges into fights and can quickly get many adds. Outside, when he says that he's taking a rest, quickly take the opportunity to single pull continuously from the two big camps. If you do not, then he'll walk into the two big camps and pull every mob and you'll be doomed. If you do fail, you can go back in the cave and get the quest again. SUPER WARNING: STOCK SUNWELL WILL DESPAWN THE ESCORTEE IF YOU TRAVEL TO FAR AWAY FROM HIM, MAKE SURE HE'S ALWAYS IN YOU'RE VIEW DISTANCE.
 		goal Escort Corporal Keeshan back to Redridge|q 219/1
@@ -2583,7 +2583,10 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Leve
 		goto 73.2,35.7
 		.talk Tyrion##7766
 		..turnin Items of Some Consequence##2746
-		..accept The Attack!##434
+	step
+		goto 73.2,35.7
+		.talk Tyrion##7766
+		..accept The Attack!##434|noauto
 	step //124
 		goal Overhear Lescovar and Marzon's Conversation|q 434/1
 		kill Lord Gregor Lescovar|q 434/2
@@ -2745,13 +2748,13 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Leve
 		goto 74.3,59.2
 		.talk Dashel Stonefist
 		..turnin The Missing Diplomat (7)##1246
-		..accept The Missing Diplomat (8)##1447
+		..accept The Missing Diplomat (8)##1447|noauto
 	step //162
 		goal Defeat Dashel Stonefist|q 1447
 	step //163
 		.talk Dashel Stonefist
 		..turnin The Missing Diplomat (8)##1447
-		..accept The Missing Diplomat (9)##1247		
+		..accept The Missing Diplomat (9)##1247
 	step //164
 		'If you found the Old History Book from Duskwood accept this quest now, otherwise skip.
 		.get An Old History Book|n
@@ -3698,7 +3701,7 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Leve
 		..turnin Hints of a New Plague?##659
 		..accept Hints of a New Plague?##658
 	step //31
-		'The courier spawns at the house to the south of Go'Shek farm, and will start travelling west along the road. Catch her before someone else does.
+		'The courier travels between Gor'Sheks farm and Tarren Mill, ask around if anyone has seen it.
 		.from Forsaken Courier##2714
 		..get Sealed Folder|q 658/1
 	step //32
@@ -3708,7 +3711,8 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Leve
 		..accept Hints of a New Plague?##657
 		.talk Kinelory##2713
 		..turnin Hints of a New Plague?##657
-		..accept Hints of a New Plague?##660
+		.'WARNING: ESCORT
+		..accept Hints of a New Plague?##660|noauto
 	step //33
 		goal Protect Kinelory|q 660/1
 	step //34
@@ -3853,7 +3857,8 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Leve
 	step //65
 		goto 33.9,80.5
 		.talk Professor Phizzlethorpe##2768
-		..accept Sunken Treasure (1)##665
+		.'WARNING: SCRIPTED EVENT
+		..accept Sunken Treasure (1)##665|noauto
 	step //66
 		goal Defend Professor Phizzlethorpe|q 665/1
 	step //67
@@ -3929,7 +3934,8 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Leve
 		goto 10.6,60.8
 		.talk Mikhail##4963
 		..turnin The Missing Diplomat (10)##1248
-		..accept The Missing Diplomat (11)##1249
+		.'WARNING: SCRIPTED EVENT
+		..accept The Missing Diplomat (11)##1249|noauto
 	step //87
 		goal Defeat Tapoke Jahn|q 1249/1
 	step //88
@@ -3938,7 +3944,7 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Leve
 		..turnin The Missing Diplomat (11)##1249
 		..accept The Missing Diplomat (12)##1264
 	step //89
-		goto Wetlands,8.4,61.8
+		goto 8.4,61.8
 		.talk Vincent Hyal##5082
 		..turnin James Hyal##1301
 		..accept James Hyal##1302
@@ -4072,7 +4078,8 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Leve
 		goto 69.7,51.2
 		.talk Major Mills##23905
 		..turnin Oh, It's Real##11210
-		..accept Take Down Tethyr!##11198
+		.'WARNING: SCRIPTED EVENT
+		..accept Take Down Tethyr!##11198|noauto
 	step //120
 		'A huge monster will spawn in the water
 		.' Run around on the dock clicking the big metal cannons until the big monster dies
@@ -4161,7 +4168,8 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Leve
 		goto 45.3,24.6
 		.talk Private Hendel##4966
 		..turnin The Missing Diplomat (13)##1266
-		..accept The Missing Diplomat (14)##1324
+		.'WARNING: SCRIPTED EVENT
+		..accept The Missing Diplomat (14)##1324|noauto
 	step //140
 		goal Subdue Private Hendel|q 1324/1
 	step //141
@@ -4323,8 +4331,10 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Leve
 	step //176
 		goto 46.9,17.5
 		.talk "Stinky" Ignatz##4880
-		..accept Stinky's Escape##1222
-		.' Help Stinky find Bogbean Leaves|goal Help Stinky find Bogbean Leaves|q 1222/1
+		.'WARNING: ESCORT
+		..accept Stinky's Escape##1222|noauto
+	step
+		' Help Stinky find Bogbean Leaves|goal Help Stinky find Bogbean Leaves|q 1222/1
 	step //177
 		goto 46.7,23.1
 		.talk Sergeant Lukas##23723
@@ -4546,7 +4556,7 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Leve
 		.talk Marshal Redpath##2263
 		..accept Crushridge Warmongers##504
 	step //39
-		goto Hillsbrad Foothills,48.1,59.1
+		goto 48.1,59.1
 		.talk Magistrate Henry Maleb##2276
 		..turnin Further Mysteries##525
 		..accept Dark Council##537
@@ -5471,7 +5481,8 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Leve
 	step //46
 		goto 65.9,45.6|tip Clear out the Tauren near the cage before starting this quest.
 		.talk Kindal Moonweaver##7956
-		..accept Freedom for All Creatures##2969
+		.'WARNING: SCRIPTED EVENT
+		..accept Freedom for All Creatures##2969|noauto
 	step //47
 		goto 66.7,46.8
 		.' Click the Cage Door on the huge cage
@@ -5626,7 +5637,8 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Leve
 		..accept Find OOX-22/FE!##2766
 		.talk Homing Robot OOX-22/FE##7807
 		..turnin Find OOX-22/FE!##2766
-		..accept Rescue OOX-22/FE!##2767
+		.'WARNING: ESCORT
+		..accept Rescue OOX-22/FE!##2767|noauto
 	step //78
 		goal Escort OOX-22/FE to safety|q 2767/1|tip DON'T GET TO FAR AWAY FROM THE CHICKEN, IF HE LEAVES YOUR VIEW DISTANCE HE DESPAWNS. IMPORTANT DURING THE SECOND WAVE WHEN 3 APES SPAWN WAY FAR AHEAD ON THE ROAD. BE PATIENT.
 	step //79
@@ -5653,7 +5665,8 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Leve
 		.' Turn right at the fork into the small circular room
 		.' Click the Zukk'ash Pod
 		..turnin The Writhing Deep##4135
-		..accept Freed from the Hive##4265
+		.'WARNING: SCRIPTED EVENT
+		..accept Freed from the Hive##4265|noauto
 		.' Stay around until Raschal talks and disappears
 		.' Free Raschal|goal Free Raschal.|q 4265/1
 	step //84
@@ -5966,7 +5979,8 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Leve
 		goto 38.2,10.3
 		.talk Shay Leafrunner##7774
 		..turnin The Giant Guardian##2844
-		..accept Wandering Shay##2845
+		.'WARNING: ESCORT
+		..accept Wandering Shay##284|noauto
 		.' Click the small chest next to Shay Leafrunner
 		.collect 1 Shay's Bell##9189|q 2845/2
 		.' Take Shay Leafrunner to Rockbiter's camp at 42.4,22|goal Take Shay Leafrunner to Rockbiter's camp|q 2845/1
@@ -5981,7 +5995,8 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Leve
 		..accept Find OOX-22/FE!##2766
 		.talk Homing Robot OOX-22/FE##7807
 		..turnin Find OOX-22/FE!##2766
-		..accept Rescue OOX-22/FE!##2767
+		.'WARNING: ESCORT
+		..accept Rescue OOX-22/FE!##2767|noauto
 	step //170
 		goal Escort OOX-22/FE to safety|q 2767/1|tip DON'T GET TO FAR AWAY FROM THE CHICKEN, IF HE LEAVES YOUR VIEW DISTANCE HE DESPAWNS. IMPORTANT DURING THE SECOND WAVE WHEN 3 APES SPAWN WAY FAR AHEAD ON THE ROAD. BE PATIENT.
 	step //171
@@ -6087,7 +6102,8 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Leve
 	step //195
 		goto 31.8,74.1
 		.talk Tooga##5955
-		..accept Tooga's Quest##1560
+		.'WARNING: ESCORT
+		..accept Tooga's Quest##1560|noauto
 	step //196
 		goto 52.7,45.9
 		.talk Marvon Rivetseeker##7771
@@ -6196,7 +6212,8 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Leve
 		..accept Find OOX-17/TN!##351
 		.talk Homing Robot OOX-17/TN##7784
 		..turnin Find OOX-17/TN!##351
-		..accept Rescue OOX-17/TN!##648
+		.'WARNING: ESCORT
+		..accept Rescue OOX-17/TN!##648|noauto
 	step //225
 		goal Escort OOX-17/TN to safety|q 648/1
 	step //226
@@ -6463,7 +6480,8 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Leve
 	step //47
 		goto 63.9,61
 		.talk Dorius Stonetender##8284
-		..accept Suntara Stones (1)##3367
+		.'WARNING: ESCORT
+		..accept Suntara Stones (1)##3367|noauto
 		.' Escort him until he gets murdered(it's part of the quest)
 		.' He drops a note when he dies
 		.' Click the Singed Letter
@@ -7281,7 +7299,8 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Leve
 		goto 42.9,84.5
 		.talk Anchronite Truuen##17238
 		..turnin The Mark of the Lightbringer##9474
-		..accept Tomb of the Lightbringer##9446
+		.'WARNING: ESCORT
+		..accept Tomb of the Lightbringer##9446|noauto
 	step //239
 		goal Escort Anchorite Truuen to Uther's Tomb|q 9446/1
 	step //240
@@ -7439,11 +7458,21 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Leve
 		.talk the Fallen Hero of the Horde##7572
 		..turnin Voodoo Feathers##8425
 		only Warrior
-	step //20
-		//TODO
-		'Deliver whatever and go to ungoro
+	step //274
+		'Fly to Booty Bay|goto Stranglethorn Vale|noway|c
+	step //275
+		'Ride the boat to Ratchet|goto The Barrens|noway|c
+	step
+		'Fly to Azshara|goto Azshara|noway|c
+	step //155
+		goto 42.4,42.6
+		.talk Ogtinc##8405
+		..turnin Blood of Morphaz##8257
+		only Priest
+	step //276
+		'Fly to Gadgetzan|goto Tanaris,51.0,29.3,0.5|noway|c
 	step //21
-		goto Tanaris,67,22.4
+		goto 67,22.4
 		.talk Yeh'kinya##8579
 		..turnin The God Hakkar##3528
 	step //22
@@ -7641,7 +7670,8 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Leve
 		..turnin Chasing A-Me 01 (1)##4243
 		..accept Chasing A-Me 01 (2)##4244
 		..turnin Chasing A-Me 01 (2)##4244
-		..accept Chasing A-Me 01 (3)##4245
+		.'WARNING: ESCORT
+		..accept Chasing A-Me 01 (3)##4245|noauto
 		.' Escort A-Me 01 to Karna Remtravel|goal Protect A-Me 01 until you reach Karna Remtravel|q 4245/1
 	step //61
 		goto 46.4,13.4
@@ -7676,7 +7706,8 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Leve
 		goto 51.9,49.9
 		.talk Ringo##9999
 		..turnin Lost!##4492
-		..accept A Little Help From My Friends##4491
+		.'WARNING: ESCORT
+		..accept A Little Help From My Friends##4491|noauto
 		.goal Escort Ringo to Spraggle Frock at Marshal's Refuge|q 4491/1
 		.' When Ringo faints, use Spraggle's Canteen on him to revive him|use Spraggle's Canteen##11804
 		.' When escorting Ringo, bring him to 43.6,8.5|n
@@ -7776,7 +7807,8 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Leve
 		goto 49.6,30.4
 		.use Flute of the Ancients##11445
 		..talk Arei##9589
-		...accept Ancient Spirit##4261
+		.'WARNING: ESCORT
+		...accept Ancient Spirit##4261|noauto
 	step //92
 		goal Help Arei get to Safety|q 4261/1
 	step //93
@@ -8434,7 +8466,7 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Leve
 		.talk Artist Renfray##11936
 		..turnin Of Love and Family##5846
 	step //252
-		'Fly to Light's Hope Chapel|goto Eastern Plaguelands|noway|c	
+		'Fly to Light's Hope Chapel|goto Eastern Plaguelands|noway|c
 	step //253
 		goto 75.7,53.9
 		.talk Carlin Redpath##11063
@@ -9191,7 +9223,8 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Leve
 		goto 54.3,63.6
 		.talk Assistant Klatu##22430
 		..turnin Fel Spirits##10909
-		..accept The Exorcism of Colonel Jules##10935
+		.'WARNING: SCRIPTED EVENT
+		..accept The Exorcism of Colonel Jules##10935|noauto
 	step //96
 		goal Colonel Jules Saved|q 10935/1|tip This quest is notoriously broken on some servers.
 	step //97
@@ -10552,7 +10585,8 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Leve
 	step //122
 		goto 30.6,49.1
 		.talk Akuno##22377
-		..accept Escaping the Tomb##10887
+		.'WARNING: ESCORT
+		..accept Escaping the Tomb##10887|noauto
 	step //123
 		goal Akuno escorted|q 10887/1
 	step //124
@@ -10575,7 +10609,8 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Leve
 		.talk Commander Ra'vaj##22446
 		..accept An Improper Burial##10913
 		.talk Chief Archaeologist Letoll##22458
-		..accept Digging Through Bones##10922
+		.'WARNING: ESCORT
+		..accept Digging Through Bones##10922|noauto
 		..'Escort the Archaeologists|goal Protect the Explorers|q 10922/1
 	step //128
 		goto 31,76.1
@@ -10978,7 +11013,8 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Leve
 	step //59
 		goto 33.2,42.3
 		.talk Kurenai Captive##18209
-		..accept The Totem of Kar'dash##9879
+		.'WARNING: ESCORT
+		..accept The Totem of Kar'dash##9879|noauto
 	step //60
 		goal Free the Kurenai Captive|q 9879/1
 	step //61
@@ -11351,19 +11387,6 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Leve
 		..turnin Planting the Banner##10518
 	step //45
 		ding 68
-	step //46
-		'Fly to Shattrath City|goto Shattrath City|noway|c
-	step //47
-		'Take the portal to Ironforge|goto Ironforge|noway|c
-		only !Druid
-	step //48
-		'Take the portal to Stormwind City|goto Stormwind City|noway|c
-		only Druid
-	step //49
-		'Train your skills, then fly to Menethil Harbor|goto Wetlands,9.5,59.7,0.1|noway|c
-	step //50
-		goto 4.6,57.2|n
-		'Ride the boat to Howling Fjord|goto Howling Fjord|noway|c
 ]])
 
 

@@ -26,7 +26,8 @@ Add druid water form questline, it fits into late westfall questing and it's wri
 
 ## TBCduo
 This is a version of the guide tuned for 2 people leveling together doing more quest and some dungeons.  
-It stays as long as possible in Azeroth to reach 70 early and get more money from questing in Netherstorm/Shadowmoon Valley
+It stays as long as possible in Azeroth to reach 70 early and get more money from questing in Netherstorm/Shadowmoon Valley.
+This version has a new tag called noauto, make sure your Zygor supports this.
 
 ## Fixing step comments.
 Don't worry about the step comments, just run `python step_fix.py <guide>` and it'll fix it for you.
