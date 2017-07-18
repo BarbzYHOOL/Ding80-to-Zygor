@@ -176,11 +176,11 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides\\Elwynn Fores
 		.talk Brother Neals##952
 		..turnin Grape Manifest##3905
 	step //37
-		ding 5
-	step //38
 		goto 45.6,47.7
 		.talk Falkhaan Isenstrider##6774
 		..accept Rest and Relaxation##2158
+	step //38
+		ding 5|tip Important, grind some mobs on the way to Stormwind.
 	step //39
 		'Go straight to Stormwind|goto Stormwind City|noway|c
 	step //40
