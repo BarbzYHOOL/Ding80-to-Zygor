@@ -6,7 +6,7 @@ Discord: https://discord.gg/SjXbNRX
 Auberdine added for lvl 19-20  
 Cracking Maury's Foot and Mai'Zoth added.  
 Desolace has been replaced by Arathi Highlands.  
-Removed Foreman Razelcraz questline, not worth the hassle of stepping into horde territory, hellfire slightly reorganized because of this.  
+Removed Foreman Razelcraz questline, not worth the hassle of stepping into horde territory.
 Removed Withered Basidium, to much grind.
 
 ## Progress
@@ -25,9 +25,9 @@ Adding "Kill 'Em With Sleep Deprivation" and "Look at the Size of It!" when they
 Add druid water form questline, it fits into late westfall questing and it's written into Zygor's.
 
 ## TBCduo
-This is a version of the guide tuned for 2 people leveling together doing more quest and some dungeons.  
-It stays as long as possible in Azeroth to reach 70 early and get more money from questing in Netherstorm/Shadowmoon Valley.
-This version has a new tag called noauto, make sure your Zygor supports this.
+This is a version of the guide tuned for 2 people leveling together on a TBC server doing more quests than usual and some dungeons.  
+It stays as long as possible in Azeroth to reach 70 early and get more money from questing in Netherstorm/Shadowmoon Valley later.
+This version uses a new tag called noauto, make sure your Zygor supports this.
 
 ## Fixing step comments.
 Don't worry about the step comments, just run `python step_fix.py <guide>` and it'll fix it for you.
