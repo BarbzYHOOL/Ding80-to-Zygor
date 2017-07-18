@@ -25,8 +25,8 @@ Adding "Kill 'Em With Sleep Deprivation" and "Look at the Size of It!" when they
 Add druid water form questline, it fits into late westfall questing and it's written into Zygor's.
 
 ## TBCduo
-This is a version of the guide tuned for 2 people leveling together on a TBC server doing more quests than usual and some dungeons.  
-It stays as long as possible in Azeroth to reach 70 early and get more money from questing in Netherstorm/Shadowmoon Valley later.
+This is a version of the guide tuned for 2 people leveling together on a TBC server doing more quests than usual and some dungeons.
+It stays as long as possible in Azeroth to reach 70 early and get more money from questing in Netherstorm/Shadowmoon Valley later.  
 This version uses a new tag called noauto, make sure your Zygor supports this.
 
 ## Fixing step comments.
