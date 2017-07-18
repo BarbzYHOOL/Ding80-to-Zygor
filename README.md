@@ -13,8 +13,14 @@ Removed Withered Basidium, to much grind.
 Dun Morogh 1-12 done  
 Alliance 13-68 done  
 
+##Ding steps
+The guide is a work in progress,
+most ding steps are advisory at best unless explicitly stated otherwise,
+feel free to skip it if you have clear goals right after.
+
 ## Guide todo
 **Vanilla**  
+lvl 10 class quests for everyone except gnome warlock and human, gnome and dwarf warrior.  
 Do a timed run compare of grinding lvl 19 in westfall or heading to auberdine as is written.  
 Thelsamar blood sausage needs to be completed earlier, loss of xp due to gray.  
 Make some waypoints inside Deadmines for Collecting memories and Oh brother...  
