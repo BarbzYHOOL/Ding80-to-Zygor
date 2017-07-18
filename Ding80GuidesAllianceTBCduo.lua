@@ -2219,10 +2219,10 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Leve
 	step //121
 		home Lakeshire
 	step //122
-		'Head left when you enter the cave
-		'WARNING: ESCORT!
 		goto 28.4,12.6
+		'Head left when you enter the cave
 		.talk Corporal Keeshan##349
+		'WARNING: ESCORT!
 		..accept Missing In Action##219|noauto
 	step //123
 		' IMPORTANT NOTE: Pull the mobs AHEAD of him before he reaches them! Even though he's tough, he charges into fights and can quickly get many adds. Outside, when he says that he's taking a rest, quickly take the opportunity to single pull continuously from the two big camps. If you do not, then he'll walk into the two big camps and pull every mob and you'll be doomed. If you do fail, you can go back in the cave and get the quest again. SUPER WARNING: STOCK SUNWELL WILL DESPAWN THE ESCORTEE IF YOU TRAVEL TO FAR AWAY FROM HIM, MAKE SURE HE'S ALWAYS IN YOU'RE VIEW DISTANCE.
@@ -2961,6 +2961,7 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Leve
 		goto 74.3,59.2
 		.talk Dashel Stonefist
 		..turnin The Missing Diplomat (7)##1246
+		.'WARNING: SCRIPTED EVENT
 		..accept The Missing Diplomat (8)##1447|noauto
 	step //163
 		goal Defeat Dashel Stonefist|q 1447
