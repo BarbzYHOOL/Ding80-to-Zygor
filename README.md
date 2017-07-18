@@ -10,8 +10,9 @@ Removed Foreman Razelcraz questline, not worth the hassle of stepping into horde
 Removed Withered Basidium, to much grind.
 
 ## Progress
-Dun Morogh 1-12 done  
-Elwynn Forest 1-12 done  
+Dun Morogh 1-5 done  
+Elwynn Forest 1-5 done  
+Eastern Kingdoms 6-12 done  
 Alliance 13-68 done  
 
 ## Ding steps

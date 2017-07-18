@@ -3,11 +3,203 @@ if not ZygorGuidesViewer then return end
 --TRIAL if ZygorGuidesViewer.AllianceInstalled then return end
 if UnitFactionGroup("player")~="Alliance" then return end
 
-ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Dun Morogh (1-12)",[[
+
+ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides\\Elwynn Forest (1-5)",[[
+	author PolarCookie
+	defaultfor Human
+	next Ding80's Alliance Leveling Guides\\Eastern Kingdoms (6-12)
+	startlevel 1
+
+	step //1
+		goto Elwynn Forest,48.1,43.6
+		.talk Deputy Willem##823
+		..accept A Threat Within##783
+	step //2
+		goto 48.9,41.6
+		.talk Marshal McBride##197
+		..turnin A Threat Within##783
+		..accept Kobold Camp Cleanup##7
+	step //3
+		goto 48.1,43.6
+		.talk Deputy Willem##823
+		..accept Eagan Peltskinner##5261
+	step //4
+		goto 48.9,40.2
+		.talk Eagan Peltskinner##196
+		..turnin Eagan Peltskinner##5261
+		..accept Wolves Across the Border##33
+	step //5
+		goto 47.4,39.7
+		.from Diseased Young Wolf##299+
+		.get 8 Diseased Wolf Pelt|q 33/1
+	step //6
+		ding 2
+	step //7
+		goto 47.9,37.1
+		.kill 8 Kobold Vermin|q 7/1
+	step //8
+		goto 48.9,40.2
+		.talk Eagan Peltskinner##196
+		..turnin Wolves Across the Border##33
+	step //9
+		goto 48.9,41.6
+		.talk Marshal McBride##197
+		..turnin Kobold Camp Cleanup##7
+		..accept Investigate Echo Ridge##15
+		..accept Glyphic Letter##3104
+		only Human Mage
+	step //10
+		goto 48.9,41.6
+		.talk Marshal McBride##197
+		..turnin Kobold Camp Cleanup##7
+		..accept Investigate Echo Ridge##15
+		..accept Simple Letter##3100
+		only Human Warrior
+	step //11
+		goto 48.9,41.6
+		.talk Marshal McBride##197
+		..turnin Kobold Camp Cleanup##7
+		..accept Investigate Echo Ridge##15
+		..accept Tainted Letter##3105
+		only Human Warlock
+	step //12
+		goto 48.9,41.6
+		.talk Marshal McBride##197
+		..turnin Kobold Camp Cleanup##7
+		..accept Investigate Echo Ridge##15
+		..accept Encrypted Letter##3102
+		only Human Rogue
+	step //13
+		goto 48.9,41.6
+		.talk Marshal McBride##197
+		..turnin Kobold Camp Cleanup##7
+		..accept Investigate Echo Ridge##15
+		..accept Hallowed Letter##3103
+		only Human Priest
+	step //14
+		goto 48.9,41.6
+		.talk Marshal McBride##197
+		..turnin Kobold Camp Cleanup##7
+		..accept Investigate Echo Ridge##15
+		..accept Consecrated Letter##3101
+		only Human Paladin
+	step //15
+		goto 49.7,39.4
+		.talk Khelden Bremen##198
+		..turnin Glyphic Letter##3104
+		only Human Mage
+	step //16
+		goto 50.2,42.3
+		.talk Llane Beshere##911
+		..turnin Simple Letter##3100
+		only Human Warrior
+	step //17
+		goto 49.8,39.5
+		.talk Priestess Anetta##375
+		..turnin Hallowed Letter##3103
+		only Human Priest
+	step //18
+		goto 50.4,42.1
+		.talk Brother Sammuel##925
+		..turnin Consecrated Letter##3101
+		only Human Paladin
+	step //19
+		goto 48.1,43.6
+		.talk Deputy Willem##823
+		..accept Brotherhood of Thieves##18
+	step //20
+		goto 49.9,42.6
+		.talk Drusilla La Salle##459
+		..turnin Tainted Letter##3105
+		only Human Warlock
+	step //21
+		goto 50.3,39.9
+		.talk Jorik Kerridan##915
+		..turnin Encrypted Letter##3102
+		only Human Rogue
+	step //22
+		ding 3
+	step //23
+		goto 51.3,37.0
+		.kill 10 Kobold Workers|q 15/1
+	step //24
+		goto 48.9,41.6
+		.talk Marshal McBride##197
+		..turnin Investigate Echo Ridge##15
+		..accept Skirmish at Echo Ridge##21
+	step //25
+		goto 47.7,32
+		.kill 12 Kobold Laborer##80|q 21/1
+	step //26
+		goto 48.9,41.6
+		.talk Marshal McBride##197
+		..turnin Skirmish at Echo Ridge##21
+		..accept Report to Goldshire##54
+	step //27
+		goto 54.3,41
+		.from Defias Thug##38+
+		.get 12 Red Burlap Bandana|q 18/1
+	step //28
+		goto 48.1,43.6
+		.talk Deputy Willem##823
+		..turnin Brotherhood of Thieves##18
+		..accept Milly Osworth##3903
+		..accept Bounty on Garrick Padfoot##6
+	step //29
+		ding 4
+	step //30
+		goto 50.7,39.3
+		.talk Milly Osworth##9296
+		..turnin Milly Osworth##3903
+		..accept Milly's Harvest##3904
+	step //31
+		goto 53.6,47.3
+		.' Click Milly's Harvest barrels around the vineyard|tip Milly's Harvest look like barrels of grapes.
+		.get 8 Milly's Harvest|q 3904/1
+	step //32
+		goto 57.5,48.3
+		.from Garrick Padfoot##103
+		.get Garrick's Head|q 6/1
+	step //33
+		goto 50.7,39.3
+		.talk Milly Osworth##9296
+		..turnin Milly's Harvest##3904
+		..accept Grape Manifest##3905
+	step //34
+		goto 48.1,43.6
+		.talk Deputy Willem##823
+		..turnin Bounty on Garrick Padfoot##6
+	step //35
+		'Go into the church and up the spiral staircase to the very top|goto Elwynn Forest,49.3,41.0,0.1|noway|c
+	step //36
+		goto 49.5,41.6
+		.talk Brother Neals##952
+		..turnin Grape Manifest##3905
+	step //37
+		ding 5
+	step //38
+		goto 45.6,47.7
+		.talk Falkhaan Isenstrider##6774
+		..accept Rest and Relaxation##2158
+	step //39
+		'Go straight to Stormwind|goto Stormwind City|noway|c
+	step //40
+		goto 69,30.9|n
+		'Ride the train to Ironforge|goto Ironforge|noway|c
+	step //41
+		goto Ironforge,55.5,47.7
+		.talk Gryth Thurden##1573
+		..fpath Ironforge
+	step //42
+		'Go outside to Dun Morogh|goto Dun Morogh|noway|c
+]])
+
+ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides\\Dun Morogh (1-5)",[[
 	author PolarCookie
 	defaultfor Gnome,Dwarf
-	next Ding80's Alliance Leveling Guides TBC duo\\Main Guide (13-19)
+	next Ding80's Alliance Leveling Guides\\Eastern Kingdoms (6-12)
 	startlevel 1
+
 	step //1
 		goto Dun Morogh,29.9,71.9
 		.talk Sten Stoutarm##658
@@ -202,15 +394,26 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Dun 
 		goto 46.7,53.8
 		.talk Senir Whitebeard##1252
 		..turnin Senir's Observations (2)##420
+]])
+
+ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides\\Eastern Kingdoms (6-12)",[[
+	author PolarCookie
+	defaultfor Gnome,Dwarf
+	next Ding80's Alliance Leveling Guides\\Levels (13-19)
+	startlevel 5
+
 	step //48
 		'This quest might require cooking
 		goto 46.8,52.4
 		.talk Ragnar Thunderbrew##1267
 		..accept Beer Basted Boar Ribs##384
 	step //49
-		goto 47.3,52.3
+		goto 47.2,52.2
 		.talk Tannok Frosthammer##6806
 		..turnin Supplies to Tannok##2160
+		only Dwarf, Gnome
+	step
+		goto 47.4,52.5
 		.talk Innkeeper Belm##1247
 		..buy Rhapsody Malt|goal 1 Rhapsody Malt|q 384/2
 	step //50
@@ -509,6 +712,11 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Dun 
 	step //121
 		goto Elwynn Forest,43.8,65.8
 		.talk Innkeeper Farley##295
+		..turnin Rest and Relaxation##2158
+		only Human
+	step //121
+		goto Elwynn Forest,43.8,65.8
+		.talk Innkeeper Farley##295
 		..home Goldshire
 	step //122
 		goto 43.3,65.7
@@ -519,6 +727,11 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Dun 
 		.talk Remy "Two Times"##241
 		..accept Gold Dust Exchange##47
 		..accept A Fishy Peril##40
+	step //124
+		goto 42.1,65.9
+		.talk Marshal Dughan##240
+		..turnin Report to Goldshire##54
+		only Human
 	step //124
 		goto 42.1,65.9
 		.talk Marshal Dughan##240
@@ -744,7 +957,7 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Dun 
 		'Go southwest to Westfall|goto Westfall|noway|c
 ]])
 
-ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Main Guide (13-19)",[[
+ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Levels (13-19)",[[
 	author PolarCookie
 	next Ding80's Alliance Leveling Guides TBC duo\\Levels (20-24)
 	startlevel 12
