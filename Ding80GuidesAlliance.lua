@@ -402,74 +402,74 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides\\Eastern King
 	next Ding80's Alliance Leveling Guides\\Levels (13-19)
 	startlevel 5
 
-	step //48
+	step //1
 		'This quest might require cooking
 		goto 46.8,52.4
 		.talk Ragnar Thunderbrew##1267
 		..accept Beer Basted Boar Ribs##384
-	step //49
+	step //2
 		goto 47.2,52.2
 		.talk Tannok Frosthammer##6806
 		..turnin Supplies to Tannok##2160
 		only Dwarf, Gnome
-	step
+	step //3
 		goto 47.4,52.5
 		.talk Innkeeper Belm##1247
 		..buy Rhapsody Malt|goal 1 Rhapsody Malt|q 384/2
-	step //50
+	step //4
 		home Kharanos
-	step //51
+	step //5
 		goto 46,51.7
 		.talk Tharek Blackstone##1872
 		..accept Tools for Steelgrill##400
-	step //52
+	step //6
 		goto 49.6,48.5
 		.talk Pilot Bellowfiz##1378
 		..accept Stocking Jetsteam##317
 		.talk Pilot Stonegear##1377
 		..accept The Grizzled Den##313
-	step //53
+	step //7
 		goto 50.4,49.1
 		.talk Beldin Steelgrill##1376
 		..turnin Tools for Steelgrill##400
-	step //54
+	step //8
 		goto 50.1,49.4
 		.talk Loslor Rudge##1694
 		..accept Ammo for Rumbleshot##5541
-	step //55
+	step //9
 		goto 49.7,50.8
 		.from Large Crag Boar##1126+, Crag Boar##1125+, Young Black Bear##1128+, Ice Claw Bear##1196+
 		.get 4 Chunk of Boar Meat|q 317/1
 		.get 6 Crag Boar Rib|q 384/1
 		.get 2 Thick Bear Fur|q 317/2
-	step //56
+	step //10
 		ding 6
-	step //57
+	step //11
 		goto 44.1,57
 		.' Click the crate|tip In the small camp next to a tent.
 		.get Rumbleshot's Ammo|q 5541/1
-	step //58
+	step //12
 		goto 42.4,54.1
 		.from Young Wendigo##1134+, Wendigo##1135+
 		.get 8 Wendigo Mane|q 313/1
-	step //59
+	step //13
 		goto 40.7,65.1
 		.talk Hegnar Rumbleshot##1243
 		..turnin Ammo for Rumbleshot##5541
-	step //60
+	step //14
 		goto 46.8,52.4
 		.talk Ragnar Thunderbrew##1267
 		..turnin Beer Basted Boar Ribs##384
-	step //61
+	step //15
 		goto 49.6,48.5
 		.talk Pilot Bellowfiz##1378
 		..turnin Stocking Jetsteam##317
 		..accept Evershine##318
 		.talk Pilot Stonegear##1377
 		..turnin The Grizzled Den##313
-	step //62
+	step //16
 		ding 7
-	step //63
+	step //17
 		goto 30.2,45.6
 		.talk Rejold Barleybrew##1374
 		..turnin Evershine##318
@@ -477,482 +477,482 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides\\Eastern King
 		..accept The Perfect Stout##315
 		.talk Marleth Barleybrew##1375
 		..accept Bitter Rivals##310
-	step //64
+	step //18
 		goto 27.8,48.3
 		.kill 6 Ice Claw Bear|q 319/1
 		.kill 8 Elder Crag Boar|q 319/2
 		.kill 8 Snow Leopard|q 319/3
-	step //65
+	step //19
 		goto 30.2,45.6
 		.talk Rejold Barleybrew##1374
 		..turnin A Favor for Evershine##319
 		..accept Return to Bellowfiz##320
-	step //66
+	step //20
 		goto 47.3,52.3
 		.talk Innkeeper Belm##1247
 		..buy 1 Thunder Ale|q 308/1
-	step //67
+	step //21
 		goto 47.6,52.7
 		.talk Jarven Thunderbrew##1373
 		..'Give him the Thunder Ale
 		.' Click the barrel next to him
 		..turnin Bitter Rivals##310
 		..accept Return to Marleth##311
-	step //68
+	step //22
 		goto 46.7,53.8
 		.talk Senir Whitebeard##1252
 		..accept Frostmane Hold##287
-	step //69
+	step //23
 		goto 49.6,48.5
 		.talk Pilot Bellowfiz##1378
 		..turnin Return to Bellowfiz##320
-	step //70
+	step //24
 		ding 8
-	step //71
+	step //25
 		goto 45.8,49.4
 		.talk Razzle Sprysprocket##1269
 		..accept Operation Recombobulation##412
-	step //72
+	step //26
 		.' The path up to Shimmerweed starts here|goto 42.7,45,0.3|c
-	step //73
+	step //27
 		goto 41.2,43
 		.from Frostmane Seer##1397+
 		.' Click the Shimmerweed Baskets|tip The Shimmerweed Baskets look like woven wooden baskets on the ground around this area.
 		.get 6 Shimmerweed|q 315/1
-	step //74
+	step //28
 		goto 30.2,45.6
 		.talk Rejold Barleybrew##1374
 		..turnin The Perfect Stout##315
 		..accept Shimmer Stout##413
 		.talk Marleth Barleybrew##1375
 		..turnin Return to Marleth##311
-	step //75
+	step //29
 		goto 25.9,43.2
 		.from Leper Gnome##1211+
 		.get 8 Restabilization Cog|q 412/1
 		.get 8 Gyromechanic Gear|q 412/2
-	step //76
+	step //30
 		goto 22.77,52.07
 		.' Explore Frostmane Hold|goal Fully explore Frostmane Hold|q 287/1|tip By the time you reach this point, you should have seen the "Explore Frostmane Hold" completed message.
 		.kill 5 Frostmane Headhunter|q 287/2
-	step //77
+	step //31
 		ding 9
-	step //78
+	step //32
 		'Hearth to Kharanos|goto Dun Morogh,47.3,52.5,0.5|use Hearthstone##6948|noway|c
-	step //79
+	step //33
 		goto 46.7,53.8
 		.talk Senir Whitebeard##1252
 		..turnin Frostmane Hold##287
-	step //80
+	step //34
 		goto 46.7,53.8
 		.talk Senir Whitebeard##1252
 		..turnin Frostmane Hold##287
 		..accept The Reports##291
-	step //81
+	step //35
 		goto 45.8,49.4
 		.talk Razzle Sprysprocket##1269
 		..turnin Operation Recombobulation##412
-	step //82
+	step //36
 		goto 63.1,49.9
 		.talk Rudra Amberstill##1265
 		..accept Protecting the Herd##314
-	step //83
+	step //37
 		goto 59.8,50.0|n
 		.' The path up to Protecting the Herd starts here|goto Dun Morogh,59.8,50.0,0.5|noway|c
-	step //84
+	step //38
 		goto 62.6,46.1
 		.from Vagash##1388
 		.get Fang of Vagash|q 314/1
-	step //85
+	step //39
 		goto 63.1,49.9
 		.talk Rudra Amberstill##1265
 		..turnin Protecting the Herd##314
-	step //86
+	step //40
 		goto 68.7,56
 		.talk Senator Mehr Stonehallow##1977
 		..accept The Public Servant##433
-	step //87
+	step //41
 		goto 69.1,56.3
 		.talk Foreman Stonebrow##1254
 		..accept Those Blasted Troggs!##432
-	step //88
+	step //42
 		'Go inside the cave to 70.7,56.5|goto 70.7,56.5
 		.kill 6 Rockjaw Skullthumper|q 432/1
 		.kill 10 Rockjaw Bonesnapper|q 433/1
-	step //89
+	step //43
 		'Go outside to 68.7,56.0|goto 68.7,56.0
 		.talk Senator Mehr Stonehallow##1977
 		..turnin The Public Servant##433
-	step //90
+	step //44
 		goto 69.1,56.3
 		.talk Foreman Stonebrow##1254
 		..turnin Those Blasted Troggs!##432
-	step //91
+	step //45
 		ding 10
-	step //92
+	step //46
 		goto 83.9,39.2
 		.talk Pilot Hammerfoot##1960
 		..accept The Lost Pilot##419
-	step //93
+	step //47
 		goto 79.7,36.2
 		.talk A Dwarven Corpse##2059
 		..turnin The Lost Pilot##419
 		..accept A Pilot's Revenge##417
-	step //94
+	step //48
 		goto 78.3,37.80
 		.from Mangeclaw##1961
 		.get Mangy Claw|q 417/1
-	step //95
+	step //49
 		goto Dun Morogh,83.9,39.2
 		.talk Pilot Hammerfoot##1960
 		..turnin A Pilot's Revenge##417
-	step //96
+	step //50
 		goto Dun Morogh,86.3,48.8
 		.talk Mountaineer Barleybrew##1959
 		..turnin Shimmer Stout##413
 		..accept Stout to Kadrell##414
-	step //97
+	step //51
 		'Go southeast to Loch Modan|goto Loch Modan|noway|c
-	step //98
+	step //52
 		goto Loch Modan,22.1,73.1
 		.talk Mountaineer Cobbleflint##1089
 		..accept In Defense of the King's Lands (1)##224
-	step //99
+	step //53
 		goto Loch Modan,23.2,73.7
 		.talk Captain Rugelfuss##1092
 		..accept The Trogg Threat##267
-	step //100
+	step //54
 		goto Loch Modan,33.9,51
 		.talk Thorgrum Borrelson##1572
 		..fpath Thelsamar
-	step //101
+	step //55
 		goto Loch Modan,34.8,47.1
 		.talk Mountaineer Kadrell##1340
 		..turnin Stout to Kadrell##414
-	step //102
+	step //56
 		goto 33.9,51
 		.talk Thorgrum Borrelson##1572
 		..'Fly to Ironforge|goto Ironforge|noway|c
-	step //103
+	step //57
 		goto Ironforge,39.5,57.5
 		.talk Senator Barin Redstone##1274
 		..turnin The Reports##291
-	step //104
+	step //58
 		goto 47.6,9.3
 		.talk Lago Blackwrench##6120
 		..accept The Slaughtered Lamb##1715
 		only Gnome Warlock
-	step //105
+	step //59
 		goto 76.9,51.2|n
 		'Enter the Deeprun Tram|goto Deeprun Tram|noway|c
-	step //106
+	step //60
 		.talk Monty##12997
 		..accept Deeprun Rat Roundup##6661
-	step //107
+	step //61
 		goal 5 Rats Captured |q 6661/1
-	step //108
+	step //62
 		.talk Monty##12997
 		..turnin Deeprun Rat Roundup##6661
 		..accept Me Brother, Nipsy##6662
-	step //109
+	step //63
 		'Ride the train to Stormwind|n
 		.talk Nipsy##13018
 		..turnin Me Brother, Nipsy##6662
-	step //110
+	step //64
 		'Exit Tram to Stormwind|goto Stormwind City|noway|c
-	step //111
+	step //65
 		goto Stormwind City,57.7,47.9
 		.talk Baros Alexston##1646
 		..accept Humble Beginnings##399
-	step //112
+	step //66
 		goto 80.4,59.8
 		.talk Ilsa Corbin##5480
 		..accept A Warrior's Training##1638
 		only Warrior
-	step //113
+	step //67
 		goto 77.1,53.3
 		.talk Harry Burlguard##6089
 		..turnin A Warrior's Training##1638
 		..accept Bartleby the Drunk##1639
 		only Warrior
-	step //114
+	step //68
 		goto 76.8,52.5
 		.talk Bartleby##6090
 		..turnin Bartleby the Drunk##1639
 		..accept Beat Bartleby##1640
 		only Warrior
-	step //115
+	step //69
 		goal Beat Bartleby|q 1640/1
 		only Warrior
-	step //116
+	step //70
 		goto 76.8,52.5
 		.talk Bartleby##6090
 		..turnin Beat Bartleby##1640
 		..accept Bartleby's Mug##1665
 		only Warrior
-	step //117
+	step //71
 		goto 77.1,53.3
 		.talk Harry Burlguard##6089
 		..turnin Bartleby's Mug##1665
 		..accept Marshall Haggard##1666
 		only Warrior
-	step //118
+	step //72
 		goto 39.2,85.3
 		.talk Gakin the Darkbinder##6122
 		..turnin The Slaughtered Lamb##1715
 		..accept Surena Caledon##1688
 		only Gnome Warlock
-	step //119
+	step //73
 		goto 71,72.5
 		.talk Dungar Longdrink##352
 		..fpath Stormwind City
-	step //120
+	step //74
 		'Go outside to Elwynn Forest|goto Elwynn Forest|noway|c
-	step //121
+	step //75
 		goto Elwynn Forest,43.8,65.8
 		.talk Innkeeper Farley##295
 		..turnin Rest and Relaxation##2158
 		only Human
-	step //121
+	step //76
 		goto Elwynn Forest,43.8,65.8
 		.talk Innkeeper Farley##295
 		..home Goldshire
-	step //122
+	step //77
 		goto 43.3,65.7
 		.talk William Pestle##253
 		..accept Kobold Candles##60
-	step //123
+	step //78
 		goto 42.1,67.3
 		.talk Remy "Two Times"##241
 		..accept Gold Dust Exchange##47
 		..accept A Fishy Peril##40
-	step //124
+	step //79
 		goto 42.1,65.9
 		.talk Marshal Dughan##240
 		..turnin Report to Goldshire##54
 		only Human
-	step //124
+	step //80
 		goto 42.1,65.9
 		.talk Marshal Dughan##240
 		..turnin A Fishy Peril##40
 		..accept Further Concerns##35
 		..accept The Fargodeep Mine##62
 		..accept Report to Gryan Stoutmantle##109
-	step //125
+	step //81
 		goto 41.7,65.6
 		.talk Smith Argus##514
 		..accept Elmore's Task##1097
-	step //126
+	step //82
 		goto 34.5,84.2
 		.talk "Auntie" Bernice Stonefield##246
 		..accept Lost Necklace##85
-	step //127
+	step //83
 		goto 34.6,84.5
 		.talk Ma Stonefield##244
 		..accept Princess Must Die!##88
-	step //128
+	step //84
 		goto 43.2,89.6
 		.talk Maybell Maclure##251
 		..accept Young Lovers##106
-	step //129
+	step //85
 		goto 43.1,85.7
 		.talk Billy Maclure##247
 		..turnin Lost Necklace##85
 		..accept Pie for Billy##86
-	step //130
+	step //86
 		goto 41.7,86.9
 		.from Stonetusk Boar##113+
 		.get 4 Chunk of Boar Meat|q 86/1
-	step //131
+	step //87
 		goto 34.5,84.2
 		.talk "Auntie" Bernice Stonefield##246
 		..turnin Pie for Billy##86
 		..accept Back to Billy##84
-	step //132
+	step //88
 		goto 29.8,86
 		.talk Tommy JoeStonefield##252
 		..turnin Young Lovers##106
 		..accept Speak with Gramma##111
-	step //133
+	step //89
 		goto 34.9,83.9
 		.talk Gramma Stonefield##248
 		..turnin Speak with Gramma##111
 		..accept Note to William##107
-	step //134
+	step //90
 		goto 43.1,85.7
 		.talk Billy Maclure##247
 		..turnin Back to Billy##84
 		..accept Goldtooth##87
-	step //135
+	step //91
 		'Go into the Fargodeep Mine to 38.3,81.6|goto 38.3,81.6|n
 		.' Enter using the lower entrance|goto Elwynn Forest,38.3,81.6,0.5|noway|n
 		.' Explore the Fargodeep Mine|goal Scout through the Fargodeep Mine|q 62/1
-	step //136
+	step //92
 		'Follow the path inside the cave to 41.7,78.3|goto 41.7,78.3
 		.from Goldtooth##327
 		.get Bernice's Necklace|q 87/1
-	step //137
+	step //93
 		goto 42.1,65.9
 		.talk Marshal Dughan##240
 		..turnin The Fargodeep Mine##62
 		..accept The Jasperlode Mine##76
-	step //138
+	step //94
 		goto 43.3,65.7
 		.talk William Pestle##253
 		..turnin Note to William##107
 		..accept Collecting Kelp##112
-	step //139
+	step //95
 		goto 49.7,66.3
 		.from Murloc##285+, Murloc Steamrunner##735+
 		.get 4 Crystal Kelp Frond|q 112/1
-	step //140
+	step //96
 		'Go inside the mine to 60.4,49.7|goto 60.4,49.7
 		.' Explore the Jasperlode Mine|goal Scout through the Jasperlode Mine|q 76/1
-	step //141
+	step //97
 		.from Kobold Tunneler##475+, Kobold Miner##40+
 		.get 10 Gold Dust|q 47/1
 		.get 8 Large Candle|q 60/1
-	step //142
+	step //98
 		goto 74,72.2
 		.talk Guard Thomas##261
 		..turnin Further Concerns##35
 		..accept Find the Lost Guards##37
 		..accept Protect the Frontier##52
 		..accept Bounty on Murlocs##46
-	step //143
+	step //99
 		goto 72.7,60.3
 		.' Click the Half-Eaten body|tip On the ground next to some big rocks by the river and a tree.
 		..turnin Find the Lost Guards##37
 		..accept Discover Rolf's Fate##45
-	step //144
+	step //100
 		goto 79.8,55.5
 		.' Click Rolf's Corpse|tip On the ground next to a murloc hut.
 		..turnin Discover Rolf's Fate##45
 		..accept Report to Thomas##71
-	step //145
+	step //101
 		goto 79.8,55.5
 		.from Murloc Forager##46+, Murloc Lurker##732+
 		..get 8 Torn Murloc Fin|q 46/1
-	step //146
+	step //102
 		ding 11
-	step //147
+	step //103
 		goto 81.4,66.1
 		.talk Supervisor Raelen##10616
 		..accept A Bundle of Trouble##5545
-	step //148
+	step //104
 		goto 79.5,68.8
 		.talk Sara Timberlain##278
 		..accept Red Linen Goods##83
-	step //149
+	step //105
 		goto 81.3,60.6
 		.' Click the small stacks of wood at the base of trees|tip They look like little stacks of 3 firewood at the base of trees in this area.
 		.get 8 Bundle of Wood|q 5545/1
-	step //150
+	step //106
 		goto 84.6,69.4
 		.talk Marshal Haggard##294
 		..turnin Marshal Haggard##1666
 		..accept Dead-tooth Jack##1667
 		only Warrior
-	step //151
+	step //107
 		goto 89.3,78.9
 		.get Marshal Haggard's Badge|q 1667/1
 		only Warrior
-	step //152
+	step //108
 		goto 80,77.8
 		.kill 8 Prowler|q 52/1
 		.kill 5 Young Forest Bear|q 52/2
-	step //153
+	step //109
 		goto 70.6,76.3
 		.from Defias Bandit##116+
 		.get 6 Red Linen Bandana|q 83/1
-	step //154
+	step //110
 		goto 69.7,79.5
 		'Kill Princess
 		.get Brass Collar##1006|q 88/1
-	step //155
+	step //111
 		goto 71,80.8
 		.from Surena Caledon##881
 		.get Surena's Choker|q 1688/1
 		only Gnome Warlock
-	step //156
+	step //112
 		goto 74,72.2
 		.talk Guard Thomas##261
 		..turnin Bounty on Murlocs##46
 		..turnin Protect the Frontier##52
 		..turnin Report to Thomas##71
 		..accept Deliver Thomas' Report##39
-	step //157
+	step //113
 		goto 79.5,68.8
 		.talk Sara Timberlain##278
 		..turnin Red Linen Goods##83
-	step //158
+	step //114
 		goto 81.4,66.1
 		.talk Supervisor Raelen##10616
 		..turnin A Bundle of Trouble##5545
-	step //159
+	step //115
 		goto 84.6,69.4
 		.talk Marshal Haggard##294
 		..turnin Dead-tooth Jack##1667
 		only Warrior
-	step //160
+	step //116
 		'Hearth to Goldshire|goto Elwynn Forest,42.4,65.8,2|use Hearthstone##6948|noway|c
-	step //161
+	step //117
 		goto 43.3,65.7
 		.talk William Pestle##253
 		..turnin Kobold Candles##60
 		..accept Shipment to Stormwind##61
 		..turnin Collecting Kelp##112
 		..accept The Escape##114
-	step //162
+	step //118
 		goto 42.1,65.9
 		.talk Marshal Dughan##240
 		..turnin Deliver Thomas' Report##39
 		..turnin The Jasperlode Mine##76
 		..accept Westbrook Garrison Needs Help!##239
-	step //163
+	step //119
 		ding 12
-	step //164
+	step //120
 		goto 42.1,67.3
 		.talk Remy "Two Times"##241
 		..turnin Gold Dust Exchange##47
-	step //165
+	step //121
 		goto 43.2,89.6
 		.talk Maybell Maclure##251
 		..turnin The Escape##114
-	step //166
+	step //122
 		goto 34.6,84.5
 		.talk Ma Stonefield##244
 		..turnin Princess Must Die!##88
-	step //167
+	step //123
 		goto 34.5,84.2
 		.talk "Auntie" Bernice Stonefield##246
 		..turnin Goldtooth##87
-	step //168
+	step //124
 		goto 24.3,74.8
 		.talk Deputy Rainer##963
 		..turnin Westbrook Garrison Needs Help!##239
 		..accept Riverpaw Gnoll Bounty##11
-	step //169
+	step //125
 		goto 24.5,74.7
 		.talk Wanted Poster##68
 		..accept Wanted: "Hogger"##176
-	step //170
+	step //126
 		goto 26.4,93.70
 		.from Hogger##448
 		.get 1 Huge Gnoll Claw|q 176/1
-	step //171
+	step //127
 		goto 26.8,86.3
 		.from Riverpaw Outrunner##478+, Riverpaw Runt##97+
 		.get 8 Painted Gnoll Armband|q 11/1
-	step //172
+	step //128
 		goto 42.1,65.9|tip Remember to train while you're in Goldshire.
 		.talk Marshal Dughan##240
 		..turnin Wanted: "Hogger"##176
-	step //173
+	step //129
 		goto 24.3,74.8
 		.talk Deputy Rainer##963
 		..turnin Riverpaw Gnoll Bounty##11
-	step //174
+	step //130
 		'Go southwest to Westfall|goto Westfall|noway|c
 ]])
 
