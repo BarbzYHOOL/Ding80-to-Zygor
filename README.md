@@ -11,9 +11,10 @@ Removed Withered Basidium, to much grind.
 
 ## Progress
 Dun Morogh 1-12 done  
+Elwynn Forest 1-12 done  
 Alliance 13-68 done  
 
-##Ding steps
+## Ding steps
 The guide is a work in progress,
 most ding steps are advisory at best unless explicitly stated otherwise,
 feel free to skip it if you have clear goals right after.
