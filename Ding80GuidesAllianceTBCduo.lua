@@ -1649,9 +1649,9 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Leve
 		..turnin The People's Militia (3)##14
 		..turnin The Defias Brotherhood (5)##142
 	step //167
-		'WARNING: ESCORT!
 		goto 55.7,47.5
 		.talk The Defias Traitor##467
+		'WARNING: ESCORT!
 		..accept The Defias Brotherhood (6)##155|noauto
 	step //168
 		goal Escort The Defias Traitor to discover where VanCleef is hiding|q 155/1
@@ -2799,6 +2799,7 @@ ZygorGuidesViewer:RegisterGuide("Ding80's Alliance Leveling Guides TBC duo\\Leve
 	step //124
 		goto 73.2,35.7
 		.talk Tyrion##7766
+		.'WARNING: SCRIPTED EVENT
 		..accept The Attack!##434|noauto
 	step //125
 		goal Overhear Lescovar and Marzon's Conversation|q 434/1
